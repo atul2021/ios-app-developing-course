@@ -1,0 +1,16 @@
+title: Ios app developing
+description: IOS app developing with swift
+template:
+  repo: ios-app-developing-template
+  name: ios-app-developing
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
